@@ -1,0 +1,19 @@
+.coupon__container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 0;
+}
+.coupon__action {
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    color: gray;
+  }
+}
+.coupon__container {
+  margin-top: 16px;
+}

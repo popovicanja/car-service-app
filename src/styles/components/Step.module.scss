@@ -1,0 +1,33 @@
+.step__title {
+  font-size: 20px;
+}
+
+.step__content {
+  padding: 24px 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: dimgray;
+  }
+}
+
+.item__name {
+  margin-left: 0.5rem;
+  line-height: 32px;
+}
+
+.step__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grid__template {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+}
